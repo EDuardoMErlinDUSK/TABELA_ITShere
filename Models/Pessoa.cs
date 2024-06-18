@@ -19,7 +19,7 @@ namespace ProjetoSEMESTRE.Models
         public string PessoaRoupa { get; set; } = string.Empty;
 
         [Column("PessoaCor")]
-        [Display(Name = "roupa da pessoa")]
+        [Display(Name = "Cor da pessoa")]
         public string PessoaCor { get; set; } = string.Empty;
 
         [Column("PessoaSexo")]

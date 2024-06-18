@@ -15,11 +15,11 @@ namespace ProjetoSEMESTRE.Models
         public string ObservacaoDescricao { get; set; } = string.Empty;
 
         [Column("ObservacaoLocal")]
-        [Display(Name = "Codigo do observacoes")]
+        [Display(Name = "Observacão do Local")]
         public string ObservacaoLocal { get; set; } = string.Empty;
 
         [Column("ObservacaoData")]
-        [Display(Name = "Data da obssrvacao")]
+        [Display(Name = "Data da observacao")]
         public DateTime ObservacaoData { get; set; }
 
         [ForeignKey("PessoaId")]
